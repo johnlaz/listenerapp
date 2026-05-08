@@ -1005,6 +1005,31 @@ footer {
   .personas-grid { grid-template-columns: repeat(2, 1fr); }
   .stats-bar { grid-template-columns: repeat(2, 1fr); }
 }
+
+.btn-apk {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: transparent;
+  color: var(--green);
+  padding: 14px 30px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,255,136,0.35);
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.2s;
+  box-shadow: 0 0 16px rgba(0,255,136,0.08);
+}
+.btn-apk:hover {
+  background: rgba(0,255,136,0.08);
+  border-color: rgba(0,255,136,0.6);
+  box-shadow: 0 0 28px rgba(0,255,136,0.2);
+  transform: translateY(-2px);
+}
 </style>
 </head>
 <body>
@@ -1023,7 +1048,7 @@ footer {
     <li><a href="#features">Features</a></li>
     <li><a href="#how">How It Works</a></li>
     <li><a href="#personas">Personas</a></li>
-    <li><a href="./index.html" class="nav-cta">Launch App</a></li>
+    <li><a href="https://johnlaz.github.io/lpai" class="nav-cta">Launch App</a></li>
   </ul>
 </nav>
 
@@ -1041,7 +1066,7 @@ footer {
       Your real-time AI co-pilot for high-stakes conversations. Whisper live coaching as you speak, or run deep post-session analysis — powered by ultra-low-latency Groq inference.
     </p>
     <div class="hero-actions">
-      <a href="./index.html" class="btn-primary">
+      <a href="https://johnlaz.github.io/lpai" class="btn-primary">
         <span>⚡</span> Launch App
       </a>
       <a href="#modes" class="btn-secondary">
@@ -1361,8 +1386,11 @@ footer {
       Free to use with your own Groq API key. No account, no cloud, no subscription. Just open the app and go.
     </p>
     <div class="hero-actions reveal">
-      <a href="./index.html" class="btn-primary">
+      <a href="https://johnlaz.github.io/lpai" class="btn-primary">
         <span>⚡</span> Launch Listener Pro
+      </a>
+      <a href="https://johnlaz.github.io/lpai/lpai.apk" download="ListenerPro.apk" class="btn-apk">
+        <span>🤖</span> Download APK
       </a>
     </div>
     <p style="margin-top:20px;font-family:'Share Tech Mono',monospace;font-size:0.62rem;color:var(--dim);letter-spacing:1.5px;" class="reveal">
